@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+         getSupportActionBar().setDisplayShowEnabled(true);
         final Spinner List = findViewById(R.id.listItem);
         Button Submit = findViewById(R.id.submit);
         Submit.setOnClickListener(new View.OnClickListener() {
